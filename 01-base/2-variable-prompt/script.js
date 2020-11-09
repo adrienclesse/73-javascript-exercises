@@ -12,8 +12,7 @@
 var username = prompt("Please enter your name",);
 
 if (username != null) {
-    document.getElementById("cake").innerHTML =
-    "Hello " + username + "! How are you today?";
+   alert("Hello " + username + "! How are you today?")
   }
 
 
