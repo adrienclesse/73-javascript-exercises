@@ -14,7 +14,9 @@
 
         var colour = document.getElementById("color").value;
         
-        document.getElementById("body").style.backgroundColor = colour; 
+        document.body.style.backgroundColor  = colour; 
+
+
     });
      
     
