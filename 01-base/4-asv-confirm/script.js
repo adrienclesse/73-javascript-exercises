@@ -4,7 +4,7 @@ var town  = prompt("In which town do you live?");
 
 alert('you are a '+ gender+ ' of ' + age + ' years old ' + ' from ' + town);
 
-let result = confirm("Do you confim all your answeres?");
+let result = confirm("Do you confirm all your answers?");
 
 console.log(result)
 
@@ -25,5 +25,6 @@ if (result==true) {
     console.log(result)
   }
     
+
 
 
