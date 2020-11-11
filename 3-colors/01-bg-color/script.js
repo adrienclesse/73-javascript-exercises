@@ -29,7 +29,7 @@
 
     });
 
-    document.getElementById("blue").addEventListener("click", function() {
+    document.getElementById("blue").addEventListener("mouseover", function() {
 
         document.getElementById("body").style.backgroundColor = "blue";      
 
