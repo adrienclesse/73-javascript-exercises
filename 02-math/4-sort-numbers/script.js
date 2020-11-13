@@ -18,8 +18,8 @@
         var points = [2, 4, 14, 10, 90, 23, 16];
         
             points.sort(function(a, b){return a - b});
-            alert(points);
-            
+
+            document.getElementById("numbers").value =points;          
         
 
     });

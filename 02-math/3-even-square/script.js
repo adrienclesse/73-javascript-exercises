@@ -19,7 +19,7 @@
         for (a = 1; a < 22; a++) {
         text += "The square of " + a + " is " + Math.pow( a, 2) + " <br>";
 
- document.getElementById("result").innerHTML=text
+ document.getElementById("result").innerHTML=text;
 }
 
     });
