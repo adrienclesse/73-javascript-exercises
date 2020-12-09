@@ -11,14 +11,14 @@
 
 (function() {
 
-    document.getElementById("pass-one").maxLength=10;
+    document.getElementById("pass-one").maxLength=9;
     let x=document.getElementById("pass-one").maxLength
 
     console.log(x);
 
     document.querySelector("#pass-one").addEventListener("keydown", function(){
 
-         let y = document.querySelector("#pass-one").value.length;
+         let y = document.querySelector("#pass-one").value.length+1;
   
     console.log(y);
 

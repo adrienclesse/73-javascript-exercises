@@ -27,7 +27,7 @@
             "cherry",
         ];
 
-        fruits[0].forEach(element => console.log(element));
+        fruits.forEach(fart => console.log(fart));
     });
 
     

@@ -11,6 +11,25 @@
 
 (function() {
 
-    // your code here
+    document.querySelector("#pass-one").addEventListener("keydown", function(){
+
+        let y = document.querySelector("#pass-one").value;
+        let x = y.length+1; 
+        let a;
+        let b;
+
+
+        var numbers =  /[0-9]/g;   
+        if (y.match(numbers)=true) {a=true} 
+        
+ 
+   console.log(x);
+  
+
+   if (y.match(numbers) && x>7){document.getElementById("validity").innerHTML="ok";}
+        
+
+    });
+    
 
 })();
